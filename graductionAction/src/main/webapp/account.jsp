@@ -1,3 +1,8 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<%@taglib uri="/struts-tags" prefix="s"%>
+<%
+	String path = request.getContextPath();
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -227,14 +232,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <div class=" login-right">
 			  	<h3>REGISTERED CUSTOMERS</h3>
 				<p>If you have an account with us, please log in.</p>
-				<form>
+				<form action="<%=path %>/user_login.action">
 				  <div>
-					<span>Email Address</span>
-					<input type="text"> 
+					<span>UserName</span>
+					<input type="text" name="userName"> 
 				  </div>
 				  <div>
 					<span>Password</span>
-					<input type="text"> 
+					<input type="text" name="password"> 
 				  </div>
 				  <a class="forgot" href="#">Forgot Your Password?</a>
 				  <input type="submit" value="Login">
@@ -361,7 +366,7 @@ It is based on Bootstrap.</p>
 					</div>
 			</div>
 			<div class="clearfix"> </div>
-			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>
 		</div>
 	</div>
 <!---->

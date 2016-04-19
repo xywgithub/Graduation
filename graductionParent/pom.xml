@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.0.0.RELEASE</spring.version>
+		<spring.version>3.0.1.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
@@ -36,6 +36,10 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 	</dependencies>
 </project>

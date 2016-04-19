@@ -19,5 +19,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>graduction</groupId>
+			<artifactId>graductionDao</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>

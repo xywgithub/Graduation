@@ -66,7 +66,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><span><i class="tele-in"> </i>0 462 261 61 61</span></li>
 					</ul>
 					<ul class=" support-right">
-						<li><a href="account.html"><i class="men"> </i>Login</a></li>
+						<li><a href="account.jsp"><i class="men"> </i>Login</a></li>
 						<li><a href="account.html"><i class="tele"> </i>Create an
 								Account</a></li>
 					</ul>
