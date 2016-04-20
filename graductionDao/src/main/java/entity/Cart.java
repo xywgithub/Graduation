@@ -1,31 +1,21 @@
 package entity;
 
+import annotation.SqlCloumn;
+
 /**
  * Cart entity. @author 豆子
  */
 
-public class Cart implements java.io.Serializable {
+public class Cart {
 
-	// Fields
-
+	@SqlCloumn(name="cart_id")
 	private Integer id;
+	
 	private Goods goods;
+	
+	@SqlCloumn(name="good_num")
 	private Integer goodNum;
 
-	// Constructors
-
-	/** default constructor */
-	public Cart() {
-	}
-
-	/** full constructor */
-	public Cart(Integer id, Goods goods, Integer goodNum) {
-		this.id = id;
-		this.goods = goods;
-		this.goodNum = goodNum;
-	}
-
-	// Property accessors
 
 	public Integer getId() {
 		return this.id;
