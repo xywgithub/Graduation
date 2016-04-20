@@ -38,12 +38,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="header-top-in grid-1">
 				<ul class="support">
-					<li ><a href="mailto:info@example.com" ><i > </i>info@example.com</a></li>
+					<li ><a href="mailto:info@example.com" ><i > </i>baibaoxiang@store.com</a></li>
 					<li ><span ><i class="tele-in"> </i>0 462 261 61 61</span></li>			
 				</ul>
 				<ul class=" support-right">
-					<li ><a href="account.jsp" ><i class="men"> </i>Login</a></li>
-					<li ><a href="account.jsp" ><i class="tele"> </i>Create an Account</a></li>			
+					<li ><a href="account.jsp" ><i class="men"> </i>登录</a></li>
+					<li ><a href="register.jsp" ><i class="tele"> </i>注册</a></li>		
 				</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -51,14 +51,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-bottom bottom-com">
 			<div class="container">			
 				<div class="logo">
-					<h1><a href="index.jsp">Amberegul</a></h1>
+					<h1><a href="project.jsp">百宝箱批发采购</a></h1>
 				</div>
 				<div class="top-nav">
 				<!-- start header menu -->
 		<ul class="megamenu skyblue menu-in">
-			<li><a  href="index.jsp">Home</a></li>
+			<li><a  href="product.jsp">首页</a></li>
 			
-			<li class="active grid"><a  href="#">Pages</a>
+			<li class="active grid"><a  href="#">页面</a>
 				<div class="megapanel">
 					<div class="row">
 						<div class="col1">
@@ -94,13 +94,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
     				</div>
 				</li>	
-		<li ><a  href="404.jsp">Blog</a></li>				
-				<li><a  href="#">Products</a>
+		<li ><a  href="404.jsp">博客</a></li>				
+				<li><a  href="#">商品</a>
 				<div class="megapanel">
 					<div class="row">
 						<div class=" col-nav">
 							<div class="h_nav">
-								<h4>BEST SELLING</h4>
+								<h4>销量最好</h4>
 								<div class="sell">
 									<div class="men">
 										<a href="product.jsp"><img src="images/pi.jpg" alt="" ></a>
@@ -135,7 +135,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class=" col-nav">
 							<div class="h_nav">
-								<h4>TOP RATE</h4>
+								<h4>性价比最高</h4>
 								<div class="sell">
 									<div class="men">
 									<a href="product.jsp"><img src="images/pi13.jpg" alt="" ></a>
@@ -203,10 +203,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="cart box_1">
 						<a href="checkout.jsp">
 						<h3> <div class="total">
-							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+							<!-- <span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> --> 我的购物车</div>
 							<img src="images/cart.png" alt=""/></h3>
 						</a>
-						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<!-- <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p> -->
 						<div class="clearfix"> </div>
 					</div>
 
@@ -219,11 +219,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 	</div>
 <!---->
-<div class="container">
+<!-- <div class="container">
 	<h6 class="dress"><a href="index.jsp">Home</a> <i> </i> Checkout </h6>
-</div>
+</div> -->
 <div class="back">
-	<h2>CHECKOUT</h2>
+	<h2>sell everything</h2>
 </div>
 		<!---->
 		<div class="product">
@@ -234,7 +234,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!---->
 				<div class="product-bottom">
 					<div class="of-left-in">
-								<h3 class="best">BEST SELLERS</h3>
+								<h3 class="best">销量最好</h3>
 							</div>
 					<div class="product-go">
 						<div class=" fashion-grid">
@@ -286,7 +286,7 @@ amet consectetuer </a></h6>
 							</div>
 				</div>
 <div class=" per1">
-				<a href="single.jsp"><img class="img-responsive" src="images/pro.jpg" alt="">
+				<a href="single.jsp"><img class="img-responsive" src="images/......jpg" alt="">
 				<div class="six1">
 					<h4>DISCOUNT</h4>
 					<p>Up to</p>
@@ -299,7 +299,7 @@ amet consectetuer </a></h6>
 				<div class="check-out">	 
 			
 		 <div class=" cart-items">
-			 <h3>My Shopping Bag (2)</h3>
+			 <h3>我的购物车</h3>
 				<script>$(document).ready(function(c) {
 					$('.close1').on('click', function(c){
 						$('.cart-header').fadeOut('slow', function(c){
@@ -319,10 +319,10 @@ amet consectetuer </a></h6>
 				
 				  <div class="in-check" >
 		  <ul class="unit">
-			<li><span>Item</span></li>
-			<li><span>Product Name</span></li>		
-			<li><span>Unit Price</span></li>
-			<li><span>Stock Status</span></li>
+			<li><span>商品</span></li>
+			<li><span>商品名称</span></li>		
+			<li><span>商品价格(单价)</span></li>
+			<li><span>商品数量</span></li>
 			<li> </li>
 			<div class="clearfix"> </div>
 		  </ul>
@@ -333,16 +333,16 @@ amet consectetuer </a></h6>
 			<li><span>Woo Dress</span></li>
 			<li><span>$ 60.00</span></li>
 			<li><span>In Stock</span></li>
-			<li> <a href="single.jsp" class="add-cart cart-check">ADD TO CART</a></li>
+			<li> <a href="single.jsp" class="add-cart cart-check">添加至订单</a></li>
 			<div class="clearfix"> </div>
 			</ul>
  <ul class=" cart-header1">
 		   <div class="close2"> </div>
 			<li class="ring-in"><a href="single.jsp" ><img src="images/f2.jpg" class="img-responsive" alt=""></a>
 			</li>
-			<li><span>Woo Dress</span></li>
+			<li><span>商品名</span></li>
 			<li><span>$ 60.00</span></li>
-			<li><span>In Stock</span></li>
+			<li><span>1000</span></li>
 			<li> <a href="single.jsp" class="add-cart cart-check">ADD TO CART</a></li>
 			<div class="clearfix"> </div>
 			</ul>
@@ -360,15 +360,14 @@ amet consectetuer </a></h6>
 				<div class="bottom-grid1">
 					
 					<div class="fit1">
-						<h3>HAPPY SHOPPING</h3>
-						<p>Lorem Ipsum sit amet consectuer adipiscing elit
-sed diam nonummy nibh euismod</p>
+						<h3>采购 愉快</h3>
+						<p>您的满意是对我们工作的最大支持</p>
 					</div>
 				</div>
 <!---->
 	<div class="footer">
 		<div class="container">
-			<div class="col-md-4 footer-top">
+			<!-- <div class="col-md-4 footer-top">
 				<h3>QUICK CONTACT</h3>
 				<form>
 						
@@ -467,10 +466,9 @@ It is based on Bootstrap.</p>
 					<a href="#"><img src="images/pa.png" alt=""></a>
 					</div>
 			</div>
-			<div class="clearfix"> </div>
-			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>
+			<div class="clearfix"> </div> -->
+			<p class="footer-class">Copyright &copy; 2016.Company name / baibaoxiang.store.com <!-- <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a> --></p>
 		</div>
 	</div>
-<!---->
 </body>
 </html>

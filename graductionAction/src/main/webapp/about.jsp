@@ -277,9 +277,9 @@ sed diam nonummy nibh euismod</p>
 					</div>
 				</div>
 <!---->
-	<div class="footer">
+ 	<div class="footer">
 		<div class="container">
-			<div class="col-md-4 footer-top">
+<!-- 			<div class="col-md-4 footer-top">
 				<h3>QUICK CONTACT</h3>
 				<form>
 						
@@ -378,10 +378,9 @@ It is based on Bootstrap.</p>
 					<a href="#"><img src="images/pa.png" alt=""></a>
 					</div>
 			</div>
-			<div class="clearfix"> </div>
+			<div class="clearfix"> </div> -->
 			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>
 		</div>
 	</div>
-<!---->
 </body>
 </html>

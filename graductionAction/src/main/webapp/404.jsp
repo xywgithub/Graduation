@@ -51,13 +51,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="header-top-in grid-1">
 					<ul class="support">
-						<li><a href="mailto:info@example.com"><i> </i>info@example.com</a></li>
+						<li><a href="mailto:baibaoxiang@store.com"><i> </i>baibaoxiang@store.com</a></li>
 						<li><span><i class="tele-in"> </i>0 462 261 61 61</span></li>
 					</ul>
 					<ul class=" support-right">
-						<li><a href="account.jsp"><i class="men"> </i>Login</a></li>
-						<li><a href="account.jsp"><i class="tele"> </i>Create
-								an Account</a></li>
+						<li ><a href="account.jsp" ><i class="men"> </i>登录</a></li>
+						<li><a href="register.jsp" ><i class="tele"> </i>注册</a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</div>
@@ -66,15 +65,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 					<div class="logo">
 						<h1>
-							<a href="index.jsp">Amberegul</a>
+							<a href="project.jsp">百宝箱批发采购</a>
 						</h1>
 					</div>
 					<div class="top-nav">
 						<!-- start header menu -->
 						<ul class="megamenu skyblue menu-in">
-							<li><a href="index.jsp">Home</a></li>
+							<li><a href="product.jsp">首页</a></li>
 
-							<li class="active grid"><a href="#">Pages</a>
+							<li class="active grid"><a href="#">页面</a>
 								<div class="megapanel">
 									<div class="row">
 										<div class="col1">
@@ -111,13 +110,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 
 								</div></li>
-							<li><a href="404.jsp">Blog</a></li>
-							<li><a href="#">Products</a>
+							<li><a href="404.jsp">博客</a></li>
+							<li><a href="#">商品</a>
 								<div class="megapanel">
 									<div class="row">
 										<div class=" col-nav">
 											<div class="h_nav">
-												<h4>BEST SELLING</h4>
+												<h4>销量最好</h4>
 												<div class="sell">
 													<div class="men">
 														<a href="product.jsp"><img src="images/pi.jpg" alt=""></a>
@@ -154,7 +153,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 										<div class=" col-nav">
 											<div class="h_nav">
-												<h4>TOP RATE</h4>
+												<h4>性价比最高</h4>
 												<div class="sell">
 													<div class="men">
 														<a href="product.jsp"><img src="images/pi13.jpg"
@@ -226,15 +225,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<a href="checkout.jsp">
 								<h3>
 									<div class="total">
-										<span class="simpleCart_total"></span> (<span
+										<!-- <span class="simpleCart_total"></span> (<span
 											id="simpleCart_quantity" class="simpleCart_quantity"></span>
-										items)
+										items) -->我的购物车
 									</div>
 									<img src="images/cart.png" alt="" />
 								</h3>
 							</a>
 							<p>
-								<a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
+							<!-- 	<a href="javascript:;" class="simpleCart_empty">Empty Cart</a> -->
 							</p>
 							<div class="clearfix"></div>
 						</div>
@@ -248,34 +247,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	</div>
 	<!---->
-	<div class="container">
+	<!-- <div class="container">
 		<h6 class="dress">
-			<a href="index.jsp">Home</a> <i> </i> 404
+			<a href="product.jsp">首页</a> <i> </i> 404
 		</h6>
-	</div>
+	</div> -->
 	<div class="back">
-		<h2>404</h2>
+		<h2>sell everything</h2>
 	</div>
 	<!---->
 	<div class="four">
 		<h3>404</h3>
 		<p>The page you're looking for could not be found.</p>
-		<a href="index.jsp" class="more ">Go back</a>
+		<a href="product.jsp" class="more ">返回首页</a>
 
 	</div>
 	<!---->
 	<div class="bottom-grid1">
 
 		<div class="fit1">
-			<h3>HAPPY SHOPPING</h3>
-			<p>Lorem Ipsum sit amet consectuer adipiscing elit sed diam
-				nonummy nibh euismod</p>
+			<h3>采购 愉快</h3>
+			<p>您的满意是对我们工作的最大支持</p>
 		</div>
 	</div>
 	<!---->
 	<div class="footer">
 		<div class="container">
-			<div class="col-md-4 footer-top">
+			<!-- <div class="col-md-4 footer-top">
 				<h3>QUICK CONTACT</h3>
 				<form>
 
@@ -298,8 +296,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 				</form>
 
-			</div>
-			<div class="col-md-4 footer-middle">
+			</div> -->
+			<!-- <div class="col-md-4 footer-middle">
 				<h3>TOP RATED PRODUCTS</h3>
 				<div class="product-go">
 					<div class="grid-product">
@@ -392,14 +390,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#"><img src="images/pa.png" alt=""></a>
 				</div>
 			</div>
-			<div class="clearfix"></div>
-			<p class="footer-class">
-				Copyright &copy; 2015.Company name All rights reserved.More
-				Templates <a href="http://www.cssmoban.com/" target="_blank"
-					title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a
-					href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿"
-					target="_blank">ç½é¡µæ¨¡æ¿</a>
-			</p>
+			<div class="clearfix"></div> -->
+			<p class="footer-class">Copyright &copy; 2016.Company name / baibaoxiang.store.com <!-- <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a> --></p>
 		</div>
 	</div>
 	<!---->
