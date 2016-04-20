@@ -1,7 +1,9 @@
 package entity;
 
 import annotation.SqlCloumn;
+import annotation.TableName;
 
+@TableName("user")
 public class User {
 	
 	@SqlCloumn(name="u_id")
