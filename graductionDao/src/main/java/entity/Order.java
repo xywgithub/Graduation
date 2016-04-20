@@ -2,37 +2,26 @@ package entity;
 
 import java.util.Date;
 
+import annotation.SqlCloumn;
+
 /**
  * Order entity. @author 豆子
  */
 
-public class Order implements java.io.Serializable {
+public class Order {
 
-	// Fields
-
+	@SqlCloumn(name="order_id")
 	private Integer id;
+	
 	private Goods goods;
+	
 	private User user;
+	
+	@SqlCloumn(name="order_date")
 	private Date orderDate;
+	
+	@SqlCloumn(name="order_num")
 	private Integer orderNum;
-
-	// Constructors
-
-	/** default constructor */
-	public Order() {
-	}
-
-	/** full constructor */
-	public Order(Integer id, Goods goods, User user, Date orderDate,
-			Integer orderNum) {
-		this.id = id;
-		this.goods = goods;
-		this.user = user;
-		this.orderDate = orderDate;
-		this.orderNum = orderNum;
-	}
-
-	// Property accessors
 
 	public Integer getId() {
 		return this.id;

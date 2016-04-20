@@ -4,123 +4,105 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import annotation.SqlCloumn;
+
 /**
  * Goods entity. @author 豆子
  */
 
-public class Goods implements java.io.Serializable {
+public class Goods  {
 
-	// Fields
-
-	private Integer GId;
-	private String GName;
-	private String GImage;
-	private Integer GExsitnum;
-	private Integer GSoldnum;
-	private double GPrice;
-	private String GDescription;
-	private Date GDate;
+	@SqlCloumn(name="g_id")
+	private Integer id;
+	
+	@SqlCloumn(name="g_name")
+	private String name;
+	
+	@SqlCloumn(name="g_image")
+	private String image;
+	
+	@SqlCloumn(name="g_exsitnum")
+	private Integer exsitnum;
+	
+	@SqlCloumn(name="g_soldnum")
+	private Integer soldnum;
+	
+	@SqlCloumn(name="g_price")
+	private double price;
+	
+	@SqlCloumn(name="g_description")
+	private String description;
+	
+	@SqlCloumn(name="g_date")
+	private Date date;
+	
 	private Set goodskinds = new HashSet();
 	private Set orders = new HashSet();
 	private Set carts = new HashSet();
 
-	// Constructors
 
-	/** default constructor */
-	public Goods() {
+	public Integer getId() {
+		return id;
 	}
 
-	/** minimal constructor */
-	public Goods(String GName, String GImage, Integer GExsitnum,
-			Integer GSoldnum, double GPrice, Date GDate) {
-		this.GName = GName;
-		this.GImage = GImage;
-		this.GExsitnum = GExsitnum;
-		this.GSoldnum = GSoldnum;
-		this.GPrice = GPrice;
-		this.GDate = GDate;
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-	/** full constructor */
-	public Goods(String GName, String GImage, Integer GExsitnum,
-			Integer GSoldnum, double GPrice, String GDescription, Date GDate,
-			Set goodskinds, Set orders, Set carts) {
-		this.GName = GName;
-		this.GImage = GImage;
-		this.GExsitnum = GExsitnum;
-		this.GSoldnum = GSoldnum;
-		this.GPrice = GPrice;
-		this.GDescription = GDescription;
-		this.GDate = GDate;
-		this.goodskinds = goodskinds;
-		this.orders = orders;
-		this.carts = carts;
+	public String getName() {
+		return name;
 	}
 
-	// Property accessors
-
-	public Integer getGId() {
-		return this.GId;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public void setGId(Integer GId) {
-		this.GId = GId;
+	public String getImage() {
+		return image;
 	}
 
-	public String getGName() {
-		return this.GName;
+	public void setImage(String image) {
+		this.image = image;
 	}
 
-	public void setGName(String GName) {
-		this.GName = GName;
+	public Integer getExsitnum() {
+		return exsitnum;
 	}
 
-	public String getGImage() {
-		return this.GImage;
+	public void setExsitnum(Integer exsitnum) {
+		this.exsitnum = exsitnum;
 	}
 
-	public void setGImage(String GImage) {
-		this.GImage = GImage;
+	public Integer getSoldnum() {
+		return soldnum;
 	}
 
-	public Integer getGExsitnum() {
-		return this.GExsitnum;
+	public void setSoldnum(Integer soldnum) {
+		this.soldnum = soldnum;
 	}
 
-	public void setGExsitnum(Integer GExsitnum) {
-		this.GExsitnum = GExsitnum;
+	public double getPrice() {
+		return price;
 	}
 
-	public Integer getGSoldnum() {
-		return this.GSoldnum;
+	public void setPrice(double price) {
+		this.price = price;
 	}
 
-	public void setGSoldnum(Integer GSoldnum) {
-		this.GSoldnum = GSoldnum;
+	public String getDescription() {
+		return description;
 	}
 
-	public double getGPrice() {
-		return this.GPrice;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public void setGPrice(double GPrice) {
-		this.GPrice = GPrice;
+	public Date getDate() {
+		return date;
 	}
 
-	public String getGDescription() {
-		return this.GDescription;
-	}
-
-	public void setGDescription(String GDescription) {
-		this.GDescription = GDescription;
-	}
-
-	public Date getGDate() {
-		return this.GDate;
-	}
-
-	public void setGDate(Date GDate) {
-		this.GDate = GDate;
+	public void setDate(Date date) {
+		this.date = date;
 	}
 
 	public Set getGoodskinds() {

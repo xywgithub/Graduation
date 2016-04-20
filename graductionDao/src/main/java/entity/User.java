@@ -3,6 +3,7 @@ package entity;
 import annotation.SqlCloumn;
 
 public class User {
+	
 	@SqlCloumn(name="u_id")
 	private int id;
 	

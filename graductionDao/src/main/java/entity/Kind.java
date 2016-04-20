@@ -3,57 +3,37 @@ package entity;
 import java.util.HashSet;
 import java.util.Set;
 
+import annotation.SqlCloumn;
+
 /**
  * Kind entity. @author 豆子
  */
 
-public class Kind implements java.io.Serializable {
+public class Kind {
 
-	// Fields
-
-	private Integer KId;
-	private String KName;
+	@SqlCloumn(name="k_id")
+	private Integer id;
+	
+	@SqlCloumn(name="k_name")
+	private String name;
+	
 	private Set goodskinds = new HashSet();
-
-	// Constructors
-
-	/** default constructor */
-	public Kind() {
+	
+	public Integer getId() {
+		return id;
 	}
-
-	/** minimal constructor */
-	public Kind(String KName) {
-		this.KName = KName;
+	public void setId(Integer id) {
+		this.id = id;
 	}
-
-	/** full constructor */
-	public Kind(String KName, Set goodskinds) {
-		this.KName = KName;
-		this.goodskinds = goodskinds;
+	public String getName() {
+		return name;
 	}
-
-	// Property accessors
-
-	public Integer getKId() {
-		return this.KId;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public void setKId(Integer KId) {
-		this.KId = KId;
-	}
-
-	public String getKName() {
-		return this.KName;
-	}
-
-	public void setKName(String KName) {
-		this.KName = KName;
-	}
-
 	public Set getGoodskinds() {
-		return this.goodskinds;
+		return goodskinds;
 	}
-
 	public void setGoodskinds(Set goodskinds) {
 		this.goodskinds = goodskinds;
 	}
