@@ -1,13 +1,16 @@
 package entity;
 
 import java.util.Date;
+import java.util.Set;
 
 import annotation.SqlCloumn;
+import annotation.TableName;
 
 /**
  * Order entity. @author 豆子
  */
 
+@TableName("order")
 public class Order {
 
 	@SqlCloumn(name="order_id")
@@ -23,6 +26,8 @@ public class Order {
 	@SqlCloumn(name="order_num")
 	private Integer orderNum;
 
+	//@Foreign(table=User.class , field="id")
+	
 	public Integer getId() {
 		return this.id;
 	}
