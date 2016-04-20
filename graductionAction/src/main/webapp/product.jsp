@@ -1,3 +1,8 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,8 +41,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li ><span ><i class="tele-in"> </i>0 462 261 61 61</span></li>			
 				</ul>
 				<ul class=" support-right">
-					<li ><a href="account.html" ><i class="men"> </i>Login</a></li>
-					<li ><a href="account.html" ><i class="tele"> </i>Create an Account</a></li>			
+					<li ><a href="account.jsp" ><i class="men"> </i>Login</a></li>
+					<li ><a href="account.jsp" ><i class="tele"> </i>Create an Account</a></li>			
 				</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -45,12 +50,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-bottom bottom-com">
 			<div class="container">			
 				<div class="logo">
-					<h1><a href="index.html">Amberegul</a></h1>
+					<h1><a href="index.jsp">Amberegul</a></h1>
 				</div>
 				<div class="top-nav">
 				<!-- start header menu -->
 		<ul class="megamenu skyblue menu-in">
-		<li><a  href="index.html">Home</a></li>
+		<li><a  href="index.jsp">Home</a></li>
 			
 			<li class="active grid"><a  href="#">Pages</a>
 				<div class="megapanel">
@@ -59,10 +64,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>SUBMENU1</h4>
 								<ul>
-									<li><a href="about.html">About</a></li>
-									<li><a href="product.html">men</a></li>
-									<li><a href="product.html">women</a></li>
-									<li><a href="product.html">accessories</a></li>
+									<li><a href="about.jsp">About</a></li>
+									<li><a href="product.jsp">men</a></li>
+									<li><a href="product.jsp">women</a></li>
+									<li><a href="product.jsp">accessories</a></li>
 									
 								</ul>	
 							</div>							
@@ -71,12 +76,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="h_nav">
 								<h4>SUBMENU2</h4>
 								<ul>
-									<li><a href="product.html">trends</a></li>
-									<li><a href="product.html">sale</a></li>
-									<li><a href="product.html">style videos</a></li>
-									<li><a href="product.html">accessories</a></li>
-									<li><a href="product.html">kids</a></li>
-									<li><a href="product.html">style videos</a></li>
+									<li><a href="product.jsp">trends</a></li>
+									<li><a href="product.jsp">sale</a></li>
+									<li><a href="product.jsp">style videos</a></li>
+									<li><a href="product.jsp">accessories</a></li>
+									<li><a href="product.jsp">kids</a></li>
+									<li><a href="product.jsp">style videos</a></li>
 								</ul>	
 							</div>							
 						</div>
@@ -88,7 +93,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
     				</div>
 				</li>	
-		<li ><a  href="404.html">Blog</a></li>				
+		<li ><a  href="404.jsp">Blog</a></li>				
 				<li><a  href="#">Products</a>
 				<div class="megapanel">
 					<div class="row">
@@ -97,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>BEST SELLING</h4>
 								<div class="sell">
 									<div class="men">
-										<a href="product.html"><img src="images/pi.jpg" alt="" ></a>
+										<a href="product.jsp"><img src="images/pi.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6>Lorem Ipsum</h6>
@@ -107,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>	
 								<div class="sell">
 									<div class="men">
-										<a href="product.html"><img src="images/pi11.jpg" alt="" ></a>
+										<a href="product.jsp"><img src="images/pi11.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6> Dummy Text</h6>
@@ -117,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>	
 								<div class="sell">
 									<div class="men">
-										<a href="product.html"><img src="images/pi12.jpg" alt="" ></a>
+										<a href="product.jsp"><img src="images/pi12.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6>Standard Chunk</h6>
@@ -132,7 +137,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h4>TOP RATE</h4>
 								<div class="sell">
 									<div class="men">
-									<a href="product.html"><img src="images/pi13.jpg" alt="" ></a>
+									<a href="product.jsp"><img src="images/pi13.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6> Perspiciatis Und</h6>
@@ -142,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>	
 								<div class="sell">
 									<div class="men">
-										<a href="product.html"><img src="images/pi.jpg" alt="" ></a>
+										<a href="product.jsp"><img src="images/pi.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6>Veritatis Et</h6>
@@ -152,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>	
 								<div class="sell">
 									<div class="men">
-										<a href="product.html"><img src="images/pi11.jpg" alt="" ></a>
+										<a href="product.jsp"><img src="images/pi11.jpg" alt="" ></a>
 									</div>
 									<div class="men-in">
 										<h6>Lorem Ipsum</h6>
@@ -166,7 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     				</div>
 				</li>
 				
-				<li><a  href="contact.html">Contact</a>
+				<li><a  href="contact.jsp">Contact</a>
 					
 				</li>
 		 </ul> 
@@ -195,7 +200,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 					<!---->
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="checkout.jsp">
 						<h3> <div class="total">
 							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
 							<img src="images/cart.png" alt=""/></h3>
@@ -213,7 +218,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!---->
 <div class="container">
-	<h6 class="dress"><a href="index.html">Home</a> <i> </i> Dress &amp; T-shirt </h6>
+	<h6 class="dress"><a href="index.jsp">Home</a> <i> </i> Dress &amp; T-shirt </h6>
 </div>
 <div class="back">
 	<h2>PRODUCTS</h2>
@@ -238,7 +243,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </a></li>
 				
           </ul>
-		  <a  class="go" href="single.html">GO</a>
+		  <a  class="go" href="single.jsp">GO</a>
 		  	<div class="clearfix"> </div>
 <!---->
  <script type="text/javascript" src="js/jquery-ui.min.js"></script>
@@ -271,38 +276,38 @@ $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + 
 		 <ul class="menu">
 		<li class="item1"><a href="#">Men </a>
 			<ul class="cute">
-				<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-				<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-				<li class="subitem3"><a href="single.html">Automatic Fails </a></li>
+				<li class="subitem1"><a href="single.jsp">Cute Kittens </a></li>
+				<li class="subitem2"><a href="single.jsp">Strange Stuff </a></li>
+				<li class="subitem3"><a href="single.jsp">Automatic Fails </a></li>
 			</ul>
 		</li>
 		<li class="item2"><a href="#">Women </a>
 			<ul class="cute">
-				<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-				<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-				<li class="subitem3"><a href="single.html">Automatic Fails </a></li>
+				<li class="subitem1"><a href="single.jsp">Cute Kittens </a></li>
+				<li class="subitem2"><a href="single.jsp">Strange Stuff </a></li>
+				<li class="subitem3"><a href="single.jsp">Automatic Fails </a></li>
 			</ul>
 		</li>
 		<li class="item3"><a href="#">Kids</a>
 			<ul class="cute">
-				<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-				<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-				<li class="subitem3"><a href="single.html">Automatic Fails</a></li>
+				<li class="subitem1"><a href="single.jsp">Cute Kittens </a></li>
+				<li class="subitem2"><a href="single.jsp">Strange Stuff </a></li>
+				<li class="subitem3"><a href="single.jsp">Automatic Fails</a></li>
 			</ul>
 		</li>
 		<li class="item4"><a href="#">Accesories</a>
 			<ul class="cute">
-				<li class="subitem1"><a href="single.html">Cute Kittens </a></li>
-				<li class="subitem2"><a href="single.html">Strange Stuff </a></li>
-				<li class="subitem3"><a href="single.html">Automatic Fails</a></li>
+				<li class="subitem1"><a href="single.jsp">Cute Kittens </a></li>
+				<li class="subitem2"><a href="single.jsp">Strange Stuff </a></li>
+				<li class="subitem3"><a href="single.jsp">Automatic Fails</a></li>
 			</ul>
 		</li>
 				
 		<li class="item4"><a href="#">Shoes</a>
 			<ul class="cute">
-				<li class="subitem1"><a href="product.html">Cute Kittens </a></li>
-				<li class="subitem2"><a href="product.html">Strange Stuff </a></li>
-				<li class="subitem3"><a href="product.html">Automatic Fails </a></li>
+				<li class="subitem1"><a href="product.jsp">Cute Kittens </a></li>
+				<li class="subitem2"><a href="product.jsp">Strange Stuff </a></li>
+				<li class="subitem3"><a href="product.jsp">Automatic Fails </a></li>
 			</ul>
 		</li>
 	</ul>
@@ -332,7 +337,7 @@ $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + 
 		
 					<div class="fit-top">
 						<h6 class="shop-top">LOREM IPSUM</h6>
-						<a href="single.html" class="shop-now">SHOP NOW</a>
+						<a href="single.jsp" class="shop-now">SHOP NOW</a>
 <div class="clearfix"> </div>
 	</div>
 				</div>	 
@@ -368,11 +373,11 @@ $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + 
 							</div>
 					<div class="product-go">
 						<div class=" fashion-grid">
-									<a href="single.html"><img class="img-responsive " src="images/be.jpg" alt=""></a>
+									<a href="single.jsp"><img class="img-responsive " src="images/be.jpg" alt=""></a>
 									
 								</div>
 							<div class=" fashion-grid1">
-								<h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
+								<h6 class="best2"><a href="single.jsp" >Lorem ipsum dolor sit
 amet consectetuer  </a></h6>
 								
 								<span class=" price-in1"> $40.00</span>
@@ -382,11 +387,11 @@ amet consectetuer  </a></h6>
 							</div>
 							<div class="product-go">
 						<div class=" fashion-grid">
-									<a href="single.html"><img class="img-responsive " src="images/be1.jpg" alt=""></a>
+									<a href="single.jsp"><img class="img-responsive " src="images/be1.jpg" alt=""></a>
 									
 								</div>
 							<div class="fashion-grid1">
-								<h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
+								<h6 class="best2"><a href="single.jsp" >Lorem ipsum dolor sit
 amet consectetuer </a></h6>
 								
 								<span class=" price-in1"> $40.00</span>
@@ -396,11 +401,11 @@ amet consectetuer </a></h6>
 							</div>
 							<div class="product-go">
 						<div class=" fashion-grid">
-									<a href="single.html"><img class="img-responsive " src="images/be2.jpg" alt=""></a>
+									<a href="single.jsp"><img class="img-responsive " src="images/be2.jpg" alt=""></a>
 									
 								</div>
 							<div class=" fashion-grid1">
-								<h6 class="best2"><a href="single.html" >Lorem ipsum dolor sit
+								<h6 class="best2"><a href="single.jsp" >Lorem ipsum dolor sit
 amet consectetuer </a></h6>
 								<ul class="star-footer">
 									<li><a href="#"><i> </i></a></li>
@@ -416,7 +421,7 @@ amet consectetuer </a></h6>
 							</div>
 				</div>
 <div class=" per1">
-				<a href="single.html" ><img class="img-responsive" src="images/pro.jpg" alt="">
+				<a href="single.jsp" ><img class="img-responsive" src="images/pro.jpg" alt="">
 				<div class="six1">
 					<h4>DISCOUNT</h4>
 					<p>Up to</p>
@@ -431,7 +436,7 @@ amet consectetuer </a></h6>
 				<!---->
 				<div class="col-md-9 product-price1">
 					<div class="mens-toolbar">
-						<p class="showing">Showing 1–9 of 21 results</p>
+						<p class="showing">Showing 1â9 of 21 results</p>
 	                 <div class="sort">
 			            <select>
 			                  <option value=""> Sorting By Rate</option>
@@ -447,7 +452,7 @@ amet consectetuer </a></h6>
 		        	<div class="top-product">
 		        		<div class="col-md-4 chain-grid  simpleCart_shelfItem">
 		        			<div class="grid-span-1">
-	   		     		<a  href="single.html"><img class="img-responsive " src="images/pr.jpg" alt=" ">
+	   		     		<a  href="single.jsp"><img class="img-responsive " src="images/pr.jpg" alt=" ">
 	   		     			<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -458,7 +463,7 @@ amet consectetuer </a></h6>
 	   		     		</a>
 	   		     	</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -484,7 +489,7 @@ amet consectetuer </a></h6>
 	   		     	</div>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr1.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr1.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -494,7 +499,7 @@ amet consectetuer </a></h6>
 	   		     		</div></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -519,7 +524,7 @@ amet consectetuer </a></h6>
 	   		     	</div>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr2.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr2.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -529,7 +534,7 @@ amet consectetuer </a></h6>
 	   		     		</div></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -558,7 +563,7 @@ amet consectetuer </a></h6>
 					
 		        		<div class="col-md-4 chain-grid simpleCart_shelfItem">
 						<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr7.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr7.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -568,7 +573,7 @@ amet consectetuer </a></h6>
 	   		     		</div><span>NEW</span></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -594,7 +599,7 @@ amet consectetuer </a></h6>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr4.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr4.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -604,7 +609,7 @@ amet consectetuer </a></h6>
 	   		     		</div></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -629,7 +634,7 @@ amet consectetuer </a></h6>
 	   		     	</div>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr5.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr5.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -639,7 +644,7 @@ amet consectetuer </a></h6>
 	   		     		</div></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -668,7 +673,7 @@ amet consectetuer </a></h6>
 				
 		        		<div class="col-md-4 chain-grid simpleCart_shelfItem">
 						<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr6.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr6.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -678,7 +683,7 @@ amet consectetuer </a></h6>
 	   		     		</div><span>NEW</span></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -703,7 +708,7 @@ amet consectetuer </a></h6>
 	   		     	</div>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr7.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr7.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -714,7 +719,7 @@ amet consectetuer </a></h6>
 						<span>NEW</span></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -739,7 +744,7 @@ amet consectetuer </a></h6>
 	   		     	</div>
 	   		     	<div class="col-md-4 chain-grid simpleCart_shelfItem">
 					<div class="grid-span-1">
-	   		     		<a href="single.html"><img class="img-responsive " src="images/pr.jpg" alt=" ">
+	   		     		<a href="single.jsp"><img class="img-responsive " src="images/pr.jpg" alt=" ">
 						<div class="link">
 	   		     			<ul >
 										<li><i> </i></li>
@@ -750,7 +755,7 @@ amet consectetuer </a></h6>
 						<span>NEW</span></a>
 	   		     		</div>
 	   		     		<div class="grid-chain-bottom ">
-	   		     			<h6><a href="single.html">WOO JACKET #1</a></h6>
+	   		     			<h6><a href="single.jsp">WOO JACKET #1</a></h6>
 	   		     			<div class="star-price">
 	   		     				<div class="price-at">
 		   		     				<ul class="star-footer">
@@ -811,7 +816,7 @@ amet consectetuer </a></h6>
 								<span>Free Shipping</span>
 								<p>on all orders over $99</p>
 							</div>
-							<a class="learn-in" href="single.html">Learn More</a>
+							<a class="learn-in" href="single.jsp">Learn More</a>
 							<div class="clearfix"> </div>
 						</div>
 			
@@ -824,7 +829,7 @@ amet consectetuer </a></h6>
 								<span>Crazy Sale!</span>
 								<p>on selected items</p>
 							</div>
-							<a class="learn-in1" href="single.html">Learn More</a>
+							<a class="learn-in1" href="single.jsp">Learn More</a>
 							<div class="clearfix"> </div>
 						</div>
 			</div>
@@ -951,7 +956,7 @@ It is based on Bootstrap.</p>
 					</div>
 			</div>
 			<div class="clearfix"> </div>
-			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+			<p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿" target="_blank">ç½é¡µæ¨¡æ¿</a></p>
 		</div>
 	</div>
 <!---->

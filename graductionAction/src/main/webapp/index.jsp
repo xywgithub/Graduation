@@ -1,3 +1,8 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 					<ul class=" support-right">
 						<li><a href="account.jsp"><i class="men"> </i>Login</a></li>
-						<li><a href="account.html"><i class="tele"> </i>Create an
+						<li><a href="account.jsp"><i class="tele"> </i>Create an
 								Account</a></li>
 					</ul>
 					<div class="clearfix"></div>
@@ -77,13 +82,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 					<div class="logo">
 						<h1>
-							<a href="index.html">Amberegul</a>
+							<a href="index.jsp">Amberegul</a>
 						</h1>
 					</div>
 					<div class="top-nav">
 						<!-- start header menu -->
 						<ul class="megamenu skyblue">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.jsp">Home</a></li>
 
 							<li class="active grid"><a href="#">Pages</a>
 								<div class="megapanel">
@@ -92,10 +97,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="h_nav">
 												<h4>SUBMENU1</h4>
 												<ul>
-													<li><a href="about.html">About</a></li>
-													<li><a href="product.html">men</a></li>
-													<li><a href="product.html">women</a></li>
-													<li><a href="product.html">accessories</a></li>
+													<li><a href="about.jsp">About</a></li>
+													<li><a href="product.jsp">men</a></li>
+													<li><a href="product.jsp">women</a></li>
+													<li><a href="product.jsp">accessories</a></li>
 
 												</ul>
 											</div>
@@ -104,12 +109,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="h_nav">
 												<h4>SUBMENU2</h4>
 												<ul>
-													<li><a href="product.html">trends</a></li>
-													<li><a href="product.html">sale</a></li>
-													<li><a href="product.html">style videos</a></li>
-													<li><a href="product.html">accessories</a></li>
-													<li><a href="product.html">kids</a></li>
-													<li><a href="product.html">style videos</a></li>
+													<li><a href="product.jsp">trends</a></li>
+													<li><a href="product.jsp">sale</a></li>
+													<li><a href="product.jsp">style videos</a></li>
+													<li><a href="product.jsp">accessories</a></li>
+													<li><a href="product.jsp">kids</a></li>
+													<li><a href="product.jsp">style videos</a></li>
 												</ul>
 											</div>
 										</div>
@@ -122,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 
 								</div></li>
-							<li><a href="404.html">Blog</a></li>
+							<li><a href="404.jsp">Blog</a></li>
 							<li><a href="#">Products</a>
 								<div class="megapanel">
 									<div class="row">
@@ -131,7 +136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<h4>BEST SELLING</h4>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi.jpg" alt=""></a>
+														<a href="product.jsp"><img src="images/pi.jpg" alt=""></a>
 													</div>
 													<div class="men-in">
 														<h6>Lorem Ipsum</h6>
@@ -141,7 +146,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</div>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi11.jpg"
+														<a href="product.jsp"><img src="images/pi11.jpg"
 															alt=""></a>
 													</div>
 													<div class="men-in">
@@ -152,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</div>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi12.jpg"
+														<a href="product.jsp"><img src="images/pi12.jpg"
 															alt=""></a>
 													</div>
 													<div class="men-in">
@@ -168,7 +173,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<h4>TOP RATE</h4>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi13.jpg"
+														<a href="product.jsp"><img src="images/pi13.jpg"
 															alt=""></a>
 													</div>
 													<div class="men-in">
@@ -179,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</div>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi.jpg" alt=""></a>
+														<a href="product.jsp"><img src="images/pi.jpg" alt=""></a>
 													</div>
 													<div class="men-in">
 														<h6>Veritatis Et</h6>
@@ -189,7 +194,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</div>
 												<div class="sell">
 													<div class="men">
-														<a href="product.html"><img src="images/pi11.jpg"
+														<a href="product.jsp"><img src="images/pi11.jpg"
 															alt=""></a>
 													</div>
 													<div class="men-in">
@@ -203,11 +208,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 								</div></li>
 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.jsp">Contact</a></li>
 						</ul>
 						<!---->
 						<div class="copyrights">
-							Collect from <a href="http://www.cssmoban.com/">网页模板</a>
+							Collect from <a href="http://www.cssmoban.com/">ç½é¡µæ¨¡æ¿</a>
 						</div>
 						<div class="search-in">
 							<div class="search">
@@ -237,7 +242,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 						<!---->
 						<div class="cart box_1">
-							<a href="checkout.html">
+							<a href="checkout.jsp">
 								<h3>
 									<div class="total">
 										<span class="simpleCart_total"></span> (<span
@@ -272,8 +277,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 			<div class="now">
-				<a class="morebtn" href="single.html">Explore</a> <a
-					class="morebtn at-in" href="single.html">Shop Now</a>
+				<a class="morebtn" href="single.jsp">Explore</a> <a
+					class="morebtn at-in" href="single.jsp">Shop Now</a>
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -286,12 +291,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-9">
 					<div class="col-top">
 						<div class="col-md-6 black">
-							<a href="single.html"><div class="shoe">
+							<a href="single.jsp"><div class="shoe">
 									<h3>WOMEN SHOES</h3>
 								</div> <img src="images/sh.png" alt=""></a>
 						</div>
 						<div class="col-md-6 black-in">
-							<a href="single.html"><div class="shoe bag">
+							<a href="single.jsp"><div class="shoe bag">
 									<h3>WOMEN BAGS</h3>
 								</div> <img src="images/ba.png" alt=""></a>
 						</div>
@@ -299,12 +304,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-top-bottom">
 						<h3 class="menber">MEMBER DISCOUNT</h3>
-						<a href="single.html" class="now-in">SHOP NOW</a>
+						<a href="single.jsp" class="now-in">SHOP NOW</a>
 						<div class="clearfix"></div>
 					</div>
 				</div>
 				<div class="col-md-3 per">
-					<a href="single.html"><img class="img-responsive"
+					<a href="single.jsp"><img class="img-responsive"
 						src="images/pi1.jpg" alt="">
 						<div class="six">
 							<h4>FASHION</h4>
@@ -671,7 +676,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="content-bottom">
 			<div class="container">
 				<p>Design is a funny word. Some people think design means how it
-					looks. But of course, if you dig deeper it’s really how it works.</p>
+					looks. But of course, if you dig deeper itâs really how it works.</p>
 				<label class="line1"> </label> <span>Steve Jobs</span>
 			</div>
 		</div>
@@ -687,7 +692,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<article style="position: absolute; width: 100%; opacity: 0;">
 									<div class="blog-in-top">
 										<div class="col-md-6 van">
-											<a href="single.html"> <img src="images/bl.jpg"
+											<a href="single.jsp"> <img src="images/bl.jpg"
 												class="img-responsive" alt="" /></a>
 										</div>
 										<div class="col-md-6 on-para">
@@ -700,7 +705,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -720,7 +725,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -729,7 +734,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<article style="position: absolute; width: 100%; opacity: 0;">
 									<div class="blog-in-top">
 										<div class="col-md-6 van">
-											<a href="single.html"> <img src="images/bl2.jpg"
+											<a href="single.jsp"> <img src="images/bl2.jpg"
 												class="img-responsive" alt="" /></a>
 										</div>
 										<div class="col-md-6 on-para">
@@ -742,7 +747,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -762,7 +767,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -771,7 +776,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<article style="position: absolute; width: 100%; opacity: 0;">
 									<div class="blog-in-top">
 										<div class="col-md-6 van">
-											<a href="single.html"> <img src="images/bl.jpg"
+											<a href="single.jsp"> <img src="images/bl.jpg"
 												class="img-responsive" alt="" /></a>
 										</div>
 										<div class="col-md-6 on-para">
@@ -784,7 +789,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -804,7 +809,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 													laoreet dolore magna aliquam erat volutpat ....</span>
 											</p>
-											<a href="single.html" class="sed">Readmore</a>
+											<a href="single.jsp" class="sed">Readmore</a>
 											<div class="clearfix"></div>
 										</div>
 										<div class="clearfix"></div>
@@ -823,7 +828,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-4 amet">
 						<div class="grid-per">
-							<a href="single.html"><img class="img-responsive"
+							<a href="single.jsp"><img class="img-responsive"
 								src="images/bl1.jpg" alt="">
 								<div class="six-per">
 									<h4>Get up to</h4>
@@ -844,7 +849,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="bottom-grid">
 				<img class="img-responsive" src="images/back1.jpg" alt="">
 				<div class="fit">
-					<h6>Best fit for women’s feet</h6>
+					<h6>Best fit for womenâs feet</h6>
 					<p>TRY TO WALK IN OUR SHOES</p>
 				</div>
 			</div>
@@ -975,9 +980,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p class="footer-class">
 				Copyright &copy; 2015.Company name All rights reserved.More
 				Templates <a href="http://www.cssmoban.com/" target="_blank"
-					title="模板之家">模板之家</a> - Collect from <a
-					href="http://www.cssmoban.com/" title="网页模板"
-					target="_blank">网页模板</a>
+					title="æ¨¡æ¿ä¹å®¶">æ¨¡æ¿ä¹å®¶</a> - Collect from <a
+					href="http://www.cssmoban.com/" title="ç½é¡µæ¨¡æ¿"
+					target="_blank">ç½é¡µæ¨¡æ¿</a>
 			</p>
 		</div>
 	</div>
