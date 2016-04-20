@@ -1,30 +1,18 @@
 package entity;
+
+import annotation.SqlCloumn;
+
 /**
  * Goodskind entity. @author 豆子
  */
 
-public class Goodskind implements java.io.Serializable {
+public class Goodskind {
 
-	// Fields
-
+	@SqlCloumn(name="g_id")
 	private Integer id;
-	private Goods goods;
+	
+	@SqlCloumn(name="k_id")
 	private Kind kind;
-
-	// Constructors
-
-	/** default constructor */
-	public Goodskind() {
-	}
-
-	/** full constructor */
-	public Goodskind(Integer id, Goods goods, Kind kind) {
-		this.id = id;
-		this.goods = goods;
-		this.kind = kind;
-	}
-
-	// Property accessors
 
 	public Integer getId() {
 		return this.id;
@@ -32,14 +20,6 @@ public class Goodskind implements java.io.Serializable {
 
 	public void setId(Integer id) {
 		this.id = id;
-	}
-
-	public Goods getGoods() {
-		return this.goods;
-	}
-
-	public void setGoods(Goods goods) {
-		this.goods = goods;
 	}
 
 	public Kind getKind() {

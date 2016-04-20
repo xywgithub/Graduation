@@ -1,52 +1,39 @@
 package entity;
+
+import annotation.SqlCloumn;
+
 /**
  * Admin entity. @author 豆子
  */
 
-public class Admin implements java.io.Serializable {
+public class Admin {
 
 	// Fields
-
-	private Integer AId;
-	private String AName;
-	private String APwd;
-
-	// Constructors
-
-	/** default constructor */
-	public Admin() {
+	@SqlCloumn(name="a_id")
+	private Integer id;
+	
+	@SqlCloumn(name="a_name")
+	private String name;
+	
+	@SqlCloumn(name="a_pwd")
+	private String password;
+	
+	public Integer getId() {
+		return id;
 	}
-
-	/** full constructor */
-	public Admin(String AName, String APwd) {
-		this.AName = AName;
-		this.APwd = APwd;
+	public void setId(Integer id) {
+		this.id = id;
 	}
-
-	// Property accessors
-
-	public Integer getAId() {
-		return this.AId;
+	public String getName() {
+		return name;
 	}
-
-	public void setAId(Integer AId) {
-		this.AId = AId;
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public String getAName() {
-		return this.AName;
+	public String getPassword() {
+		return password;
 	}
-
-	public void setAName(String AName) {
-		this.AName = AName;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-
-	public String getAPwd() {
-		return this.APwd;
-	}
-
-	public void setAPwd(String APwd) {
-		this.APwd = APwd;
-	}
-
 }
