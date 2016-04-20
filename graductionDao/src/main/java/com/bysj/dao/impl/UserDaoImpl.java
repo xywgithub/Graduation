@@ -15,13 +15,13 @@ public class UserDaoImpl extends AbstractDao implements UserDao{
 	private static Class<User> entityClass = User.class;
 	
 	public boolean isExist(String userName ,String password) {
-		String sql = SELECTSQL + "where u_name = ? and + u_pwd = ?";
+		String sql = SELECTSQL + " where u_name = ? and u_pwd = ?";
 		Connection conn = ThreadConnection.getConnection();
 		PreparedStatement ps = null;
 		try {
 			 ps = conn.prepareStatement(sql);
-			 ps.setString(0, userName);
-			 ps.setString(1, password);
+			 ps.setString(1, userName);
+			 ps.setString(2, password);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
