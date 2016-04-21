@@ -232,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <div class=" login-right">
 			  	<h3>用户登录</h3>
 				<p>如果你有我们的账号，请在下面输入账号信息登录</p>
-				<form action="user_login.action">
+				<form action="user.action">
 				  <div>
 					<span>账号</span>
 					<input type="text" name="userName"> 

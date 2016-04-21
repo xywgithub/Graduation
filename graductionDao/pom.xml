@@ -1,5 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>graduation</groupId>
+		<artifactId>graductionParent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>graduation</groupId>
@@ -11,6 +16,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<hibernate.version>5.0.0.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
@@ -28,6 +34,28 @@
 			<!-- 运行时有效，编译和测试编译时无效，与provided相对应 -->
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator-annotation-processor</artifactId>
+			<version>${hibernate.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>4.0.0.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<pluginManagement>
@@ -41,28 +69,11 @@
 					</configuration>
 				</plugin>
 				<!-- 为此项目配置 多个sourceFolder -->
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>build-helper-maven-plugin</artifactId>
-					<version>1.7</version>
-					<executions>
-						<execution>
-							<id>add-source</id>
-							<phase>generate-sources</phase>
-							<goals>
-								<goal>add-source</goal>
-							</goals>
-							<configuration>
-								<sources>
-									<!-- 我们可以通过在这里添加多个source节点，来添加任意多个源文件夹 -->
-									<source>src/main/java</source>
-									<source>src/test/java</source>
-									<source>additional</source>
-								</sources>
-							</configuration>
-						</execution>
-					</executions>
-				</plugin>
+				<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>build-helper-maven-plugin</artifactId> 
+					<version>1.7</version> <executions> <execution> <id>add-source</id> <phase>generate-sources</phase> 
+					<goals> <goal>add-source</goal> </goals> <configuration> <sources> 我们可以通过在这里添加多个source节点，来添加任意多个源文件夹 
+					<source>src/main/java</source> <source>src/test/java</source> <source>additional</source> 
+					</sources> </configuration> </execution> </executions> </plugin> -->
 			</plugins>
 		</pluginManagement>
 	</build>
