@@ -82,13 +82,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="container">
 					<div class="logo">
 						<h1>
-							<a href="index.jsp">Amberegul</a>
+							<a href="index.jsp">百宝箱</a>
 						</h1>
 					</div>
 					<div class="top-nav">
 						<!-- start header menu -->
 						<ul class="megamenu skyblue">
-							<li><a href="index.jsp">Home</a></li>
+							<li><a href="index.jsp">首页</a></li>
 
 							<li class="active grid"><a href="#">Pages</a>
 								<div class="megapanel">
@@ -127,13 +127,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 
 								</div></li>
-							<li><a href="404.jsp">Blog</a></li>
-							<li><a href="#">Products</a>
+							<li><a href="404.jsp">博客</a></li>
+							<li><a href="#">商品</a>
 								<div class="megapanel">
 									<div class="row">
 										<div class=" col-nav">
 											<div class="h_nav">
-												<h4>BEST SELLING</h4>
+												<h4>最好卖</h4>
 												<div class="sell">
 													<div class="men">
 														<a href="product.jsp"><img src="images/pi.jpg" alt=""></a>
@@ -170,7 +170,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 										<div class=" col-nav">
 											<div class="h_nav">
-												<h4>TOP RATE</h4>
+												<h4>性价比之最</h4>
 												<div class="sell">
 													<div class="men">
 														<a href="product.jsp"><img src="images/pi13.jpg"
@@ -208,9 +208,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>
 								</div></li>
 
-							<li><a href="contact.jsp">Contact</a></li>
+							<li><a href="contact.jsp">联系我们</a></li>
 						</ul>
-						<!---->
 						<div class="copyrights">
 							Collect from <a href="http://www.cssmoban.com/">ç½é¡µæ¨¡æ¿</a>
 						</div>
@@ -245,16 +244,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<a href="checkout.jsp">
 								<h3>
 									<div class="total">
-										<span class="simpleCart_total"></span> (<span
+										<span class="simpleCart_total"></span> <span
 											id="simpleCart_quantity" class="simpleCart_quantity"></span>
-										items)
+										我的购物车
 									</div>
 									<img src="images/cart.png" alt="" />
 								</h3>
 							</a>
-							<p>
+							<!-- <p>
 								<a href="javascript:;" class="simpleCart_empty">Empty Cart</a>
-							</p>
+							</p> -->
 							<div class="clearfix"></div>
 						</div>
 
@@ -269,16 +268,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 		<div class="banner">
 			<div class="banner-top">
-				<h2>THIS IS AMBEREGUL</h2>
+				<h2>这里是商品批发商铺</h2>
 				<p>
-					This theme for high selling <span>fashion such as clothings,
-						shoes, bags, fashion for men, women, accessories, etc.</span>
+					<!-- This theme for high selling <span>fashion such as clothings,
+						shoes, bags, fashion for men, women, accessories, etc.</span> -->
+					这里有你想要的一切，物美价廉，欢迎前来采购！
 				</p>
 			</div>
 
 			<div class="now">
-				<a class="morebtn" href="single.jsp">Explore</a> <a
-					class="morebtn at-in" href="single.jsp">Shop Now</a>
+				<a class="morebtn" href="product.jsp">随便闲逛</a> 
+				<!-- <a class="morebtn at-in" href="single.jsp">展示商品</a> -->
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -287,7 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!---->
 	<div class="content">
 		<div class="container">
-			<div class="content-top">
+<!-- 			<div class="content-top">
 				<div class="col-md-9">
 					<div class="col-top">
 						<div class="col-md-6 black">
@@ -318,11 +318,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div></a>
 				</div>
 				<div class="clearfix"></div>
-			</div>
+			</div> -->
 			<!---->
 			<div class="sap_tabs">
 				<label class="line"> </label>
-				<h2>LATES ARRIVAL</h2>
+				<h2>新到商品</h2>
 				<div id="horizontalTab"
 					style="display: block; width: 100%; margin: 0px;">
 					<ul class="resp-tabs-list">
